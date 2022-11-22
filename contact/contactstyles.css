@@ -1,0 +1,105 @@
+#nav-bar {
+  color: white;
+  text-align: center;
+  position: sticky;
+  top: 150px;
+  z-index: 30;
+}
+.navbar
+{
+  color: white;
+  padding: 10!important;
+  height: 20px;
+}
+
+.navbar-nav li a {
+  color: white !important;
+
+  line-height: 1;
+  font-weight: 600;
+  float: right;
+  text-align: left; 
+}
+
+
+.navbar-nav li a:hover {
+  color: hotpink !important;
+  line-height: 1;
+  font-weight: 600;
+  float: right;
+  text-align: left; 
+}
+
+.fa-bars{
+  top:0;
+  color: white;
+}
+.navbar-toggler {
+  justify-content: left;
+  position: relative;
+  outline: none;
+}
+
+
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    font-family: gothambook;
+    position:absolute;
+    top: 0px;
+    bottom: 0px;
+    }
+
+
+
+    header {
+      position: sticky;
+      background-color: black;
+      height: 50vh;
+      min-height: 35rem;
+      width: 100%;
+      overflow:scroll;
+    }
+    
+    header video {
+      position: fixed;
+      top:55%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: 0;
+      -ms-transform: translateX(-50%) translateY(-50%);
+      -moz-transform: translateX(-50%) translateY(-50%);
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+    }
+    
+    header .container {
+      position: relative;
+      z-index: 2;
+    }
+    
+    header .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: black;
+      opacity: 0.2;
+      z-index: 1;
+    }
+
+
+.container {
+max-height: fit-content;
+top: 30%;
+position:relative;
+justify-content: center;
+z-index: 30;
+}
